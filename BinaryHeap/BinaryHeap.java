@@ -15,17 +15,17 @@ public class BinaryHeap implements PriorityQueue{
 			priority = newPri;
 		}
 
-	//returns int representing current priority
-        public int getPri() {
-		    return priority;
-        }
+		//returns int representing current priority
+		public int getPri() {
+			    return priority;
+		}
 
-        //returns String representing current data
-        public String getData() {
-		    return data;
-        }
+		//returns String representing current data
+		public String getData() {
+			    return data;
+		}
 		
-}
+	}
 	
 	private HeapData[] heap;
 	private int size;
