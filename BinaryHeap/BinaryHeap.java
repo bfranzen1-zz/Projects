@@ -15,7 +15,7 @@ public class BinaryHeap implements PriorityQueue{
 			priority = newPri;
 		}
 
-		//returns int representing current priority
+	//returns int representing current priority
         public int getPri() {
 		    return priority;
         }
@@ -25,7 +25,7 @@ public class BinaryHeap implements PriorityQueue{
 		    return data;
         }
 		
-	}
+}
 	
 	private HeapData[] heap;
 	private int size;
